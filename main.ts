@@ -7,5 +7,6 @@ basic.forever(function () {
         . # # # .
         `)
     music.playSoundEffect(music.builtinSoundEffect(soundExpression.giggle), SoundExpressionPlayMode.UntilDone)
+    basic.clearScreen()
     basic.showString("Meow  ")
 })
